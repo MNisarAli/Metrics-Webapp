@@ -1,7 +1,7 @@
+import Header from './components/Header';
+
 const App = () => (
-  <>
-    <header className="App-header">Metrics Webapp</header>
-  </>
+  <Header />
 );
 
 export default App;
