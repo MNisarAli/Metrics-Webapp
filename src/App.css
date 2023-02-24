@@ -2,10 +2,24 @@
   background-color: #df4782;
 }
 
+.search-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .section-title {
   font-size: 0.9rem;
   text-transform: uppercase;
   padding: 0.3rem 0.7rem;
+}
+
+.section-title span {
+  font-size: inherit;
+}
+
+.search-wrapper form {
+  padding: 0 0.3rem;
 }
 
 .navbar {
