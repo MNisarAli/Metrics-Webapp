@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 import CountryDetails from '../pages/CountryDetails';
-import store from '../Redux/configureStore';
+import store from '../redux/configureStore';
 
 describe('CountryDetails component', () => {
   test('renders correctly', () => {

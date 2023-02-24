@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
-import store from '../Redux/configureStore';
+import store from '../redux/configureStore';
 import '@testing-library/jest-dom';
 import Header from '../components/Header';
 import { updateTitle } from '../Redux/Title/titleReducer';

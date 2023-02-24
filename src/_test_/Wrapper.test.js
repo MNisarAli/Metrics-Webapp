@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
-import store from '../Redux/configureStore';
+import store from '../redux/configureStore';
 import '@testing-library/jest-dom';
 import Wrapper from '../components/Wrapper';
 
