@@ -12,7 +12,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [📹 Video Demonstration ](#-video-demonstration-)
+  - [📹 Video Presentation ](#-video-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -70,10 +70,10 @@ The key features of this website include.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- VIDEO DEMONSTRATION -->
-## 📹 Video Demonstration <a name="Video-demo"></a>
+<!-- VIDEO PRESENTATION -->
+## 📹 Video Presentation <a name="Video-demo"></a>
 
-- [Video Demonstration]()
+- [Video Presentation Link](https://www.loom.com/share/3bc5ed3f8d4f4d35832e7078c57b65e6)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
