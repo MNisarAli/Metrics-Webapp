@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard component renders correctly 1`] = `
+<section
+  className="dashboard"
+>
+  <img
+    alt=""
+    className="dashboard-map"
+    src=""
+  />
+  <article
+    className="title-container"
+  >
+    <h2
+      className="page-title"
+    />
+    <span />
+  </article>
+</section>
+`;

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountryDetails component renders correctly 1`] = `
+Array [
+  <section
+    className="dashboard"
+  >
+    <img
+      alt=""
+      className="dashboard-map"
+      src=""
+    />
+    <article
+      className="title-container"
+    >
+      <h2
+        className="page-title"
+      />
+      <span />
+    </article>
+  </section>,
+  <section
+    className="data-section"
+  >
+    <h3
+      className="section-title"
+    >
+      Country Details
+    </h3>
+    <article
+      className="item-container"
+    >
+      <div
+        className="item"
+      >
+        <span>
+          Flag
+        </span>
+        <img
+          alt="Country flag"
+          className="flag"
+        />
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Flag Symbol
+        </span>
+        <span />
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Official Name
+        </span>
+        <span />
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          ID
+        </span>
+        <span />
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Capital
+        </span>
+        <span />
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Region
+        </span>
+        <span />
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Sub-Region
+        </span>
+        <span />
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Population
+        </span>
+        <span />
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Area
+        </span>
+        <span>
+          sq. km
+        </span>
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Latitude
+        </span>
+        <span />
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Longitude
+        </span>
+        <span />
+      </div>
+    </article>
+  </section>,
+]
+`;

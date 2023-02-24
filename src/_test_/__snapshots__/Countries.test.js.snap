@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries page renders correctly 1`] = `
+Array [
+  <section
+    className="dashboard"
+  >
+    <img
+      alt=""
+      className="dashboard-map"
+      src=""
+    />
+    <article
+      className="title-container"
+    >
+      <h2
+        className="page-title"
+      />
+      <span />
+    </article>
+  </section>,
+  <section
+    className="data-section"
+  >
+    <article
+      className="search-wrapper"
+    >
+      <h3
+        className="section-title"
+      >
+        <span>
+           Countries
+        </span>
+      </h3>
+      <form>
+        <input
+          className="search-input"
+          onChange={[Function]}
+          placeholder="Search country by name"
+          type="text"
+        />
+      </form>
+    </article>
+    <nav
+      className="navbar"
+    />
+  </section>,
+]
+`;
