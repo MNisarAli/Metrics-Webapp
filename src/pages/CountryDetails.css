@@ -1,0 +1,20 @@
+.item-container {
+  background-color: #ea4a88;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  height: 3.5rem;
+}
+
+.item:nth-child(even) {
+  background-color: #ce4277;
+}
+
+.flag {
+  width: 4rem;
+  height: 2.5rem;
+}
