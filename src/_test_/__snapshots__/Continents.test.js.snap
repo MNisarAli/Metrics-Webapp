@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Continents page renders correctly 1`] = `
+Array [
+  <section
+    className="dashboard"
+  >
+    <img
+      alt="World"
+      className="dashboard-map"
+      src="https://svgsilh.com/svg/306338.svg"
+    />
+    <article
+      className="title-container"
+    >
+      <h2
+        className="page-title"
+      >
+        World
+      </h2>
+      <span>
+        0
+      </span>
+    </article>
+  </section>,
+  <section
+    className="data-section"
+  >
+    <h3
+      className="section-title"
+    >
+      Continents
+    </h3>
+    <nav
+      className="navbar"
+    />
+  </section>,
+]
+`;
