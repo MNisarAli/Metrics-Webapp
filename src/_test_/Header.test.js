@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import store from '../redux/configureStore';
 import '@testing-library/jest-dom';
 import Header from '../components/Header';
-import { updateTitle } from '../Redux/Title/titleReducer';
+import { updateTitle } from '../redux/Title/titleReducer';
 
 describe('updateTitle', () => {
   it('should return the expected action object', () => {
