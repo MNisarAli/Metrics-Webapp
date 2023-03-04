@@ -18,7 +18,7 @@ const CountryDetails = () => {
   // Extract the country object properties to use in the component.
   const {
     name, official, id, capital, subregion, region,
-    population, lat, lng, area, flagSymbol, flag, map,
+    population, lat, lng, area, flagSymbol, flag, map, currencies,
   } = country;
 
   // Use the useDispatch hook to dispatch the fetchAirPollution AsyncThunk.
@@ -87,6 +87,17 @@ const CountryDetails = () => {
           <div className="item">
             <span>Capital</span>
             <span>{capital}</span>
+          </div>
+          <div className="item">
+            <span>Currency</span>
+            {currencies.length > 0 && (
+            <span>
+              {`${currencies[0].code}, ${currencies[0].name}, `}
+              (
+              <strong>{currencies[0].symbol}</strong>
+              )
+            </span>
+            )}
           </div>
           <div className="item">
             <span>Region</span>
