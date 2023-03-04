@@ -12,7 +12,6 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [📹 Video Presentation ](#-video-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -25,7 +24,7 @@
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
+  - [💖 Show your support ](#-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
@@ -35,7 +34,7 @@
 
  "World Metrics" is a single page web application that allows users to: 
 
-- To check world continents/countries information, e.g: Population, Flags, Longitude, Latitude etc.
+- To check world continents/countries information, e.g: Population, Flags, Currencies, Languages, Longitude, Latitude, & Air Pollution Data etc.
 
 <!-- BUILT WITH -->
 ## 🛠 Built With <a name="built-with"></a>
@@ -53,6 +52,7 @@
 The key features of this website include.
 
  - Interaction with "REST Countries" API.
+ - Interaction with "Air Pollution" API.
  - Continents info at Home page.
  - Search countries by name at "Continent Detail" page.
  - View detailed data about selected country at "Country Detail" page.
@@ -66,14 +66,6 @@ The key features of this website include.
 
 - [Live Demo Link](https://worldmetrics.onrender.com/)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- VIDEO PRESENTATION -->
-## 📹 Video Presentation <a name="Video-demo"></a>
-
-- [Video Presentation Link](https://www.loom.com/share/3bc5ed3f8d4f4d35832e7078c57b65e6)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,7 +163,7 @@ This project can be used to practice React & Redux.
 <!-- FUTURE FEATURES -->
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add air pollution data for each country.
+- [ ] Add air pollution data for each city.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -189,7 +181,7 @@ Feel free to check the [issues page](https://github.com/MNisarAli/Metrics-Webapp
 
 
 <!-- SUPPORT -->
-## ⭐️ Show your support <a name="support"></a>
+## 💖 Show your support <a name="support"></a>
 
 Give a ⭐️, if you like this project!
 
@@ -204,6 +196,7 @@ Give a ⭐️, if you like this project!
 - [Microverseinc](https://github.com/microverseinc) for [Readme-template](https://github.com/microverseinc/readme-template).
 - [Nelson Sakwa at Behance](https://www.behance.net/sakwadesignstudio) for creating this beautiful [App design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
 - [Alejandro Matos](https://gitlab.com/amatos) for [REST Countries API](https://restcountries.com/#license).
+- [OpenWeather](https://openweathermap.org) for [Air Pollution API](https://openweathermap.org/api/air-pollution)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
