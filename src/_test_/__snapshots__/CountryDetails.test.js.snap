@@ -23,9 +23,9 @@ Array [
     className="data-section"
   >
     <h3
-      className="section-title"
+      className="article-heading"
     >
-      Country Details
+      Country's Basic Info
     </h3>
     <article
       className="item-container"
@@ -72,6 +72,20 @@ Array [
           Capital
         </span>
         <span />
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Currency
+        </span>
+      </div>
+      <div
+        className="item"
+      >
+        <span>
+          Languages
+        </span>
       </div>
       <div
         className="item"
@@ -124,6 +138,14 @@ Array [
         <span />
       </div>
     </article>
+    <h3
+      className="article-heading"
+    >
+      Air Pollution Data
+    </h3>
+    <article
+      className="item-container"
+    />
   </section>,
 ]
 `;

@@ -1,3 +1,10 @@
+.article-heading {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.3rem 0.7rem;
+}
+
 .item-container {
   background-color: #ea4a88;
 }
@@ -17,4 +24,11 @@
 .flag {
   width: 4rem;
   height: 2.5rem;
+}
+
+sub {
+  position: relative;
+  vertical-align: baseline;
+  bottom: -0.25em;
+  font-size: 75%;
 }

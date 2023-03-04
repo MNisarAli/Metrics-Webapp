@@ -12,9 +12,8 @@ const initialState = {
 };
 
 // Transform the raw data fetched from the API into the desired format.
-const countryInformation = (data) => data
-  .filter((country) => country.independent)
-  .map((country) => ({
+const countryInformation = (data) => data.filter((country) => country.independent).map(
+  (country) => ({
     path: `/${country.name.common}`,
     name: country.name.common,
     official: country.name.official,
@@ -30,7 +29,14 @@ const countryInformation = (data) => data
     flagSymbol: country.flag,
     flag: country.flags.png,
     map: `${COUNTRY_MAP_URL}${country.cca2.toLowerCase()}/vector.svg`,
-  })).sort((a, b) => a.name.localeCompare(b.name));
+    currencies: Object.entries(country.currencies).map(([code, { name, symbol }]) => ({
+      code, name, symbol,
+    })),
+    languages: Object.entries(country.languages).map(([code, name]) => ({
+      code, name,
+    })),
+  }),
+).sort((a, b) => a.name.localeCompare(b.name));
 
 // Async thunk to fetch countries by region and filter by name.
 export const getCountries = createAsyncThunk(
