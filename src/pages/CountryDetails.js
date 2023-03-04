@@ -90,7 +90,7 @@ const CountryDetails = () => {
           </div>
           <div className="item">
             <span>Currency</span>
-            {currencies.length > 0 && (
+            {currencies && currencies.length > 0 && (
             <span>
               {`${currencies[0].code}, ${currencies[0].name}, `}
               (
@@ -101,7 +101,7 @@ const CountryDetails = () => {
           </div>
           <div className="item">
             <span>Languages</span>
-            {languages.length > 0 && (
+            {languages && languages.length > 0 && (
             <span>
               {languages.map((language) => (
                 <span key={language.code}>
