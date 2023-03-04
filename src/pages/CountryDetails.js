@@ -18,7 +18,7 @@ const CountryDetails = () => {
   // Extract the country object properties to use in the component.
   const {
     name, official, id, capital, subregion, region,
-    population, lat, lng, area, flagSymbol, flag, map, currencies,
+    population, lat, lng, area, flagSymbol, flag, map, currencies, languages,
   } = country;
 
   // Use the useDispatch hook to dispatch the fetchAirPollution AsyncThunk.
@@ -100,6 +100,20 @@ const CountryDetails = () => {
             )}
           </div>
           <div className="item">
+            <span>Languages</span>
+            {languages.length > 0 && (
+            <span>
+              {languages.map((language) => (
+                <span key={language.code}>
+                  &nbsp;&nbsp;&lsquo;
+                  {language.name}
+                  &rsquo;
+                </span>
+              ))}
+            </span>
+            )}
+          </div>
+          <div className="item">
             <span>Region</span>
             <span>{region}</span>
           </div>
@@ -138,16 +152,14 @@ const CountryDetails = () => {
               <span>Carbon monoxide (CO)</span>
               <span>
                 {pollutionData.list[0].components.co}
-                {' '}
-                μg/m³
+                &nbsp;μg/m³
               </span>
             </div>
             <div className="item">
               <span>Nitrogen monoxide (NO)</span>
               <span>
                 {pollutionData.list[0].components.no}
-                {' '}
-                μg/m³
+                &nbsp;μg/m³
               </span>
             </div>
             <div className="item">
@@ -158,8 +170,7 @@ const CountryDetails = () => {
               </span>
               <span>
                 {pollutionData.list[0].components.no2}
-                {' '}
-                μg/m³
+                &nbsp;μg/m³
               </span>
             </div>
             <div className="item">
@@ -170,8 +181,7 @@ const CountryDetails = () => {
               </span>
               <span>
                 {pollutionData.list[0].components.o3}
-                {' '}
-                μg/m³
+                &nbsp;μg/m³
               </span>
             </div>
             <div className="item">
@@ -182,8 +192,7 @@ const CountryDetails = () => {
               </span>
               <span>
                 {pollutionData.list[0].components.so2}
-                {' '}
-                μg/m³
+                &nbsp;μg/m³
               </span>
             </div>
             <div className="item">
@@ -194,8 +203,7 @@ const CountryDetails = () => {
               </span>
               <span>
                 {pollutionData.list[0].components.pm2_5}
-                {' '}
-                μg/m³
+                &nbsp;μg/m³
               </span>
             </div>
             <div className="item">
@@ -206,8 +214,7 @@ const CountryDetails = () => {
               </span>
               <span>
                 {pollutionData.list[0].components.pm10}
-                {' '}
-                μg/m³
+                &nbsp;μg/m³
               </span>
             </div>
             <div className="item">
@@ -218,8 +225,7 @@ const CountryDetails = () => {
               </span>
               <span>
                 {pollutionData.list[0].components.nh3}
-                {' '}
-                μg/m³
+                &nbsp;μg/m³
               </span>
             </div>
             <div className="item">
