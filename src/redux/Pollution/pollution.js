@@ -5,7 +5,7 @@ import axios from 'axios';
 const FETCH_AIR_POLLUTION_DATA = 'airPollution/fetch';
 
 // API URL and key for fetching air pollution data
-const API_URL = 'http://api.openweathermap.org/data/2.5/air_pollution?';
+const API_URL = 'https://api.openweathermap.org/data/2.5/air_pollution?';
 const API_KEY = '9e828e2624199c7cbb9d9cde2d3b483c';
 
 // Define the initial state for the slice
